@@ -11,7 +11,7 @@ function App() {
   };
   return (
     <div id="main">
-      <p id="para">{para}</p>
+      {para && <p id="para">{para}</p>} 
       <button id="click" onClick={changePara}>
         clickMe
       </button>
